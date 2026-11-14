@@ -50,7 +50,7 @@ end
 
 function show_fluid(u, v, d, s, map)
     d(map > 0) = 0.5;
-    pcolor(d'); colormap(bone); caxis([0 2]); shading(gca, 'interp'); hold on;
+    pcolor(d'); colormap(bone); clim([0 2]); shading(gca, 'interp'); hold on;
     if s; quiver(s*u', s*v', 'AutoScale', 'off', 'Color', 'r'); end
     axis off; hold off
 end

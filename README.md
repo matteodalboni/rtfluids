@@ -1,5 +1,8 @@
 # rtfluids
 An implementation of the seminal papers "Stable fluids" and "Real time fluid dynamics for games" by Jos Stam.
+<p align="center">
+  <img src="steam.gif" width="50%" />
+</p>
 
 ## References
 [1] Stam, Jos. *Stable fluids*. Seminal Graphics Papers: Pushing the Boundaries, Volume 2. 2023. 779-786.\
